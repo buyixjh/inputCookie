@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>输入内容保存到cookie</title>
+</head>
+
+<body>
+    <div><label>文字框<input type="text" name="" id="i1"></label></div>
+    <div><label>数字框<input type="number" name="" id="i2"></label></div>
+    <div><label>男<input type="radio" name="gender" value="man" id="i3"></label></div>
+    <div><label>女<input type="radio" name="gender" value="women" id="i4"></label></div>
+    <div></div>
+    <div>多选框
+        <label>1<input type="checkbox" name="number" id="i5"></label>
+        <label>2<input type="checkbox" name="number" id="i6"></label>
+        <label>3<input type="checkbox" name="number" id="i7"></label>
+    </div>
+
+    <div><label>下拉框
+            <select>
+                <option>111</option>
+                <option>222</option>
+                <option>333</option>
+            </select>
+        </label>
+    </div>
+</body>
+<script src="https://wurenzhi.com/jq.js"></script>
+<script src="inputCookie.js"></script>
+<script>
+    getInputCookie();
+</script>
+
+</html>
